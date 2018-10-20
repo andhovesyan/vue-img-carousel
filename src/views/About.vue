@@ -1,5 +1,15 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+<layout>
+  <h1 class="text-center">About us!</h1>
+</layout>
 </template>
+
+<script>
+import Layout from '@/layouts/default';
+
+export default {
+  components: {
+    Layout,
+  },
+};
+</script>
